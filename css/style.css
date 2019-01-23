@@ -22,7 +22,12 @@ section {
 }
 
 #header {
+    background-color: #5a5a5a;
+    padding: 0;
+}
+#header> div{
     background-color: #232321;
+
 }
 
 #header img {
@@ -35,6 +40,7 @@ section {
 #header .intro {
     text-align: center;
     color: #fff;
+    padding: 100px 0;
 }
 
 .hero-text {
@@ -62,7 +68,7 @@ section {
 
 #header h3 {
     font-weight: 400;
-    margin-bottom: 60px;
+    margin-bottom: 0;
 }
 
 #info{
@@ -141,7 +147,7 @@ h3,
     overflow: hidden;
 }
 .img-holder_phone{
-    width: 150px;
+    width: 250px;
     margin: 0 auto;
 }
 .desktop{
@@ -159,12 +165,12 @@ h3,
     top: 0;
     left: 0;
     max-width: 295px;
-    max-height: 220px;
+    max-height: 365px;
     overflow: hidden;
     /* overflow: scroll; */
-    border-left: 18px solid transparent;
-    border-top: 50px solid transparent;
-    border-right: 18px solid transparent;
+    border-left: 29px solid transparent;
+    border-top: 84px solid transparent;
+    border-right: 23px solid transparent;
 }
 .img-holder_tablet{
     width: 350px;
@@ -476,7 +482,7 @@ iframe {
     top: 0;
     left: 0;
     overflow-y: hidden;
-    transform: scale(0.225);
+    transform: scale(0.375);
 }
 
 @media (max-width: 1199px){
